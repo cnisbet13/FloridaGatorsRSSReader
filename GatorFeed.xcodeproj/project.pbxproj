@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96E048671BC0A6CA0017DDC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E048661BC0A6CA0017DDC9 /* AppDelegate.swift */; };
+		96E048691BC0A6CA0017DDC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E048681BC0A6CA0017DDC9 /* ViewController.swift */; };
+		96E0486C1BC0A6CA0017DDC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E0486A1BC0A6CA0017DDC9 /* Main.storyboard */; };
+		96E0486E1BC0A6CA0017DDC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E0486D1BC0A6CA0017DDC9 /* Assets.xcassets */; };
+		96E048711BC0A6CA0017DDC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E0486F1BC0A6CA0017DDC9 /* LaunchScreen.storyboard */; };
+		96E0487C1BC0A6CB0017DDC9 /* GatorFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E0487B1BC0A6CB0017DDC9 /* GatorFeedTests.swift */; };
+		96E048871BC0A6CB0017DDC9 /* GatorFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E048861BC0A6CB0017DDC9 /* GatorFeedUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96E048781BC0A6CB0017DDC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96E0485B1BC0A6CA0017DDC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96E048621BC0A6CA0017DDC9;
+			remoteInfo = GatorFeed;
+		};
+		96E048831BC0A6CB0017DDC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96E0485B1BC0A6CA0017DDC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96E048621BC0A6CA0017DDC9;
+			remoteInfo = GatorFeed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96E048631BC0A6CA0017DDC9 /* GatorFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GatorFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E048661BC0A6CA0017DDC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96E048681BC0A6CA0017DDC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96E0486B1BC0A6CA0017DDC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96E0486D1BC0A6CA0017DDC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96E048701BC0A6CA0017DDC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96E048721BC0A6CA0017DDC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E048771BC0A6CB0017DDC9 /* GatorFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GatorFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E0487B1BC0A6CB0017DDC9 /* GatorFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatorFeedTests.swift; sourceTree = "<group>"; };
+		96E0487D1BC0A6CB0017DDC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E048821BC0A6CB0017DDC9 /* GatorFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GatorFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E048861BC0A6CB0017DDC9 /* GatorFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatorFeedUITests.swift; sourceTree = "<group>"; };
+		96E048881BC0A6CB0017DDC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96E048601BC0A6CA0017DDC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E048741BC0A6CB0017DDC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E0487F1BC0A6CB0017DDC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96E0485A1BC0A6CA0017DDC9 = {
+			isa = PBXGroup;
+			children = (
+				96E048651BC0A6CA0017DDC9 /* GatorFeed */,
+				96E0487A1BC0A6CB0017DDC9 /* GatorFeedTests */,
+				96E048851BC0A6CB0017DDC9 /* GatorFeedUITests */,
+				96E048641BC0A6CA0017DDC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96E048641BC0A6CA0017DDC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96E048631BC0A6CA0017DDC9 /* GatorFeed.app */,
+				96E048771BC0A6CB0017DDC9 /* GatorFeedTests.xctest */,
+				96E048821BC0A6CB0017DDC9 /* GatorFeedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96E048651BC0A6CA0017DDC9 /* GatorFeed */ = {
+			isa = PBXGroup;
+			children = (
+				96E048661BC0A6CA0017DDC9 /* AppDelegate.swift */,
+				96E048681BC0A6CA0017DDC9 /* ViewController.swift */,
+				96E0486A1BC0A6CA0017DDC9 /* Main.storyboard */,
+				96E0486D1BC0A6CA0017DDC9 /* Assets.xcassets */,
+				96E0486F1BC0A6CA0017DDC9 /* LaunchScreen.storyboard */,
+				96E048721BC0A6CA0017DDC9 /* Info.plist */,
+			);
+			path = GatorFeed;
+			sourceTree = "<group>";
+		};
+		96E0487A1BC0A6CB0017DDC9 /* GatorFeedTests */ = {
+			isa = PBXGroup;
+			children = (
+				96E0487B1BC0A6CB0017DDC9 /* GatorFeedTests.swift */,
+				96E0487D1BC0A6CB0017DDC9 /* Info.plist */,
+			);
+			path = GatorFeedTests;
+			sourceTree = "<group>";
+		};
+		96E048851BC0A6CB0017DDC9 /* GatorFeedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96E048861BC0A6CB0017DDC9 /* GatorFeedUITests.swift */,
+				96E048881BC0A6CB0017DDC9 /* Info.plist */,
+			);
+			path = GatorFeedUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96E048621BC0A6CA0017DDC9 /* GatorFeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E0488B1BC0A6CB0017DDC9 /* Build configuration list for PBXNativeTarget "GatorFeed" */;
+			buildPhases = (
+				96E0485F1BC0A6CA0017DDC9 /* Sources */,
+				96E048601BC0A6CA0017DDC9 /* Frameworks */,
+				96E048611BC0A6CA0017DDC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GatorFeed;
+			productName = GatorFeed;
+			productReference = 96E048631BC0A6CA0017DDC9 /* GatorFeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96E048761BC0A6CB0017DDC9 /* GatorFeedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E0488E1BC0A6CB0017DDC9 /* Build configuration list for PBXNativeTarget "GatorFeedTests" */;
+			buildPhases = (
+				96E048731BC0A6CB0017DDC9 /* Sources */,
+				96E048741BC0A6CB0017DDC9 /* Frameworks */,
+				96E048751BC0A6CB0017DDC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96E048791BC0A6CB0017DDC9 /* PBXTargetDependency */,
+			);
+			name = GatorFeedTests;
+			productName = GatorFeedTests;
+			productReference = 96E048771BC0A6CB0017DDC9 /* GatorFeedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96E048811BC0A6CB0017DDC9 /* GatorFeedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E048911BC0A6CB0017DDC9 /* Build configuration list for PBXNativeTarget "GatorFeedUITests" */;
+			buildPhases = (
+				96E0487E1BC0A6CB0017DDC9 /* Sources */,
+				96E0487F1BC0A6CB0017DDC9 /* Frameworks */,
+				96E048801BC0A6CB0017DDC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96E048841BC0A6CB0017DDC9 /* PBXTargetDependency */,
+			);
+			name = GatorFeedUITests;
+			productName = GatorFeedUITests;
+			productReference = 96E048821BC0A6CB0017DDC9 /* GatorFeedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96E0485B1BC0A6CA0017DDC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Lone Pine Creative";
+				TargetAttributes = {
+					96E048621BC0A6CA0017DDC9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					96E048761BC0A6CB0017DDC9 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 96E048621BC0A6CA0017DDC9;
+					};
+					96E048811BC0A6CB0017DDC9 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 96E048621BC0A6CA0017DDC9;
+					};
+				};
+			};
+			buildConfigurationList = 96E0485E1BC0A6CA0017DDC9 /* Build configuration list for PBXProject "GatorFeed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96E0485A1BC0A6CA0017DDC9;
+			productRefGroup = 96E048641BC0A6CA0017DDC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96E048621BC0A6CA0017DDC9 /* GatorFeed */,
+				96E048761BC0A6CB0017DDC9 /* GatorFeedTests */,
+				96E048811BC0A6CB0017DDC9 /* GatorFeedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96E048611BC0A6CA0017DDC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E048711BC0A6CA0017DDC9 /* LaunchScreen.storyboard in Resources */,
+				96E0486E1BC0A6CA0017DDC9 /* Assets.xcassets in Resources */,
+				96E0486C1BC0A6CA0017DDC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E048751BC0A6CB0017DDC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E048801BC0A6CB0017DDC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96E0485F1BC0A6CA0017DDC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E048691BC0A6CA0017DDC9 /* ViewController.swift in Sources */,
+				96E048671BC0A6CA0017DDC9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E048731BC0A6CB0017DDC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E0487C1BC0A6CB0017DDC9 /* GatorFeedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E0487E1BC0A6CB0017DDC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E048871BC0A6CB0017DDC9 /* GatorFeedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96E048791BC0A6CB0017DDC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96E048621BC0A6CA0017DDC9 /* GatorFeed */;
+			targetProxy = 96E048781BC0A6CB0017DDC9 /* PBXContainerItemProxy */;
+		};
+		96E048841BC0A6CB0017DDC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96E048621BC0A6CA0017DDC9 /* GatorFeed */;
+			targetProxy = 96E048831BC0A6CB0017DDC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96E0486A1BC0A6CA0017DDC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96E0486B1BC0A6CA0017DDC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96E0486F1BC0A6CA0017DDC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96E048701BC0A6CA0017DDC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96E048891BC0A6CB0017DDC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96E0488A1BC0A6CB0017DDC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96E0488C1BC0A6CB0017DDC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GatorFeed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LonePineC.GatorFeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96E0488D1BC0A6CB0017DDC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GatorFeed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LonePineC.GatorFeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96E0488F1BC0A6CB0017DDC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GatorFeedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LonePineC.GatorFeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GatorFeed.app/GatorFeed";
+			};
+			name = Debug;
+		};
+		96E048901BC0A6CB0017DDC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GatorFeedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LonePineC.GatorFeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GatorFeed.app/GatorFeed";
+			};
+			name = Release;
+		};
+		96E048921BC0A6CB0017DDC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GatorFeedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LonePineC.GatorFeedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GatorFeed;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		96E048931BC0A6CB0017DDC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GatorFeedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LonePineC.GatorFeedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GatorFeed;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96E0485E1BC0A6CA0017DDC9 /* Build configuration list for PBXProject "GatorFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E048891BC0A6CB0017DDC9 /* Debug */,
+				96E0488A1BC0A6CB0017DDC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E0488B1BC0A6CB0017DDC9 /* Build configuration list for PBXNativeTarget "GatorFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E0488C1BC0A6CB0017DDC9 /* Debug */,
+				96E0488D1BC0A6CB0017DDC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96E0488E1BC0A6CB0017DDC9 /* Build configuration list for PBXNativeTarget "GatorFeedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E0488F1BC0A6CB0017DDC9 /* Debug */,
+				96E048901BC0A6CB0017DDC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96E048911BC0A6CB0017DDC9 /* Build configuration list for PBXNativeTarget "GatorFeedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E048921BC0A6CB0017DDC9 /* Debug */,
+				96E048931BC0A6CB0017DDC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96E0485B1BC0A6CA0017DDC9 /* Project object */;
+}
