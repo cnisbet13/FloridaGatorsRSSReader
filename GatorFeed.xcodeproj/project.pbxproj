@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		96E048671BC0A6CA0017DDC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E048661BC0A6CA0017DDC9 /* AppDelegate.swift */; };
-		96E048691BC0A6CA0017DDC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E048681BC0A6CA0017DDC9 /* ViewController.swift */; };
 		96E0486C1BC0A6CA0017DDC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E0486A1BC0A6CA0017DDC9 /* Main.storyboard */; };
 		96E0486E1BC0A6CA0017DDC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E0486D1BC0A6CA0017DDC9 /* Assets.xcassets */; };
 		96E048711BC0A6CA0017DDC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E0486F1BC0A6CA0017DDC9 /* LaunchScreen.storyboard */; };
 		96E0487C1BC0A6CB0017DDC9 /* GatorFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E0487B1BC0A6CB0017DDC9 /* GatorFeedTests.swift */; };
 		96E048871BC0A6CB0017DDC9 /* GatorFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E048861BC0A6CB0017DDC9 /* GatorFeedUITests.swift */; };
+		96E048951BC0A6FE0017DDC9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E048941BC0A6FE0017DDC9 /* TableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		96E048971BC0A7210017DDC9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E048961BC0A7210017DDC9 /* DetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		96E048991BC0A7280017DDC9 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E048981BC0A7280017DDC9 /* ContainerViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		96E0489B1BC0A7380017DDC9 /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E0489A1BC0A7380017DDC9 /* XMLParser.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		96E048631BC0A6CA0017DDC9 /* GatorFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GatorFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E048661BC0A6CA0017DDC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		96E048681BC0A6CA0017DDC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		96E0486B1BC0A6CA0017DDC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96E0486D1BC0A6CA0017DDC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96E048701BC0A6CA0017DDC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		96E048821BC0A6CB0017DDC9 /* GatorFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GatorFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E048861BC0A6CB0017DDC9 /* GatorFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatorFeedUITests.swift; sourceTree = "<group>"; };
 		96E048881BC0A6CB0017DDC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E048941BC0A6FE0017DDC9 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../TableViewController.swift; sourceTree = "<group>"; };
+		96E048961BC0A7210017DDC9 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../DetailViewController.swift; sourceTree = "<group>"; };
+		96E048981BC0A7280017DDC9 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContainerViewController.swift; path = ../ContainerViewController.swift; sourceTree = "<group>"; };
+		96E0489A1BC0A7380017DDC9 /* XMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XMLParser.swift; path = ../XMLParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,12 @@
 		96E048651BC0A6CA0017DDC9 /* GatorFeed */ = {
 			isa = PBXGroup;
 			children = (
-				96E048661BC0A6CA0017DDC9 /* AppDelegate.swift */,
-				96E048681BC0A6CA0017DDC9 /* ViewController.swift */,
+				96E048961BC0A7210017DDC9 /* DetailViewController.swift */,
+				96E048981BC0A7280017DDC9 /* ContainerViewController.swift */,
+				96E0489A1BC0A7380017DDC9 /* XMLParser.swift */,
+				96E048941BC0A6FE0017DDC9 /* TableViewController.swift */,
 				96E0486A1BC0A6CA0017DDC9 /* Main.storyboard */,
-				96E0486D1BC0A6CA0017DDC9 /* Assets.xcassets */,
-				96E0486F1BC0A6CA0017DDC9 /* LaunchScreen.storyboard */,
-				96E048721BC0A6CA0017DDC9 /* Info.plist */,
+				96E0489C1BC0A74C0017DDC9 /* Extras */,
 			);
 			path = GatorFeed;
 			sourceTree = "<group>";
@@ -123,6 +129,17 @@
 				96E048881BC0A6CB0017DDC9 /* Info.plist */,
 			);
 			path = GatorFeedUITests;
+			sourceTree = "<group>";
+		};
+		96E0489C1BC0A74C0017DDC9 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				96E048661BC0A6CA0017DDC9 /* AppDelegate.swift */,
+				96E0486D1BC0A6CA0017DDC9 /* Assets.xcassets */,
+				96E0486F1BC0A6CA0017DDC9 /* LaunchScreen.storyboard */,
+				96E048721BC0A6CA0017DDC9 /* Info.plist */,
+			);
+			name = Extras;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,8 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96E048691BC0A6CA0017DDC9 /* ViewController.swift in Sources */,
+				96E048951BC0A6FE0017DDC9 /* TableViewController.swift in Sources */,
+				96E0489B1BC0A7380017DDC9 /* XMLParser.swift in Sources */,
+				96E048991BC0A7280017DDC9 /* ContainerViewController.swift in Sources */,
 				96E048671BC0A6CA0017DDC9 /* AppDelegate.swift in Sources */,
+				96E048971BC0A7210017DDC9 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
