@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96A5A9561BC321B200A84C63 /* Animals-Dog-Track-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 96A5A9551BC321B200A84C63 /* Animals-Dog-Track-icon.png */; settings = {ASSET_TAGS = (); }; };
 		96E048671BC0A6CA0017DDC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E048661BC0A6CA0017DDC9 /* AppDelegate.swift */; };
 		96E0486C1BC0A6CA0017DDC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E0486A1BC0A6CA0017DDC9 /* Main.storyboard */; };
 		96E0486E1BC0A6CA0017DDC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E0486D1BC0A6CA0017DDC9 /* Assets.xcassets */; };
@@ -17,6 +18,8 @@
 		96E048971BC0A7210017DDC9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E048961BC0A7210017DDC9 /* DetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		96E048991BC0A7280017DDC9 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E048981BC0A7280017DDC9 /* ContainerViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		96E0489B1BC0A7380017DDC9 /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E0489A1BC0A7380017DDC9 /* XMLParser.swift */; settings = {ASSET_TAGS = (); }; };
+		96E048DB1BC1B5CC0017DDC9 /* kirsty bd it.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96E048D91BC1B5CB0017DDC9 /* kirsty bd it.ttf */; settings = {ASSET_TAGS = (); }; };
+		96E048DC1BC1B5CC0017DDC9 /* kirsty rg it.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96E048DA1BC1B5CB0017DDC9 /* kirsty rg it.ttf */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		96A5A9551BC321B200A84C63 /* Animals-Dog-Track-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Animals-Dog-Track-icon.png"; sourceTree = "<group>"; };
 		96E048631BC0A6CA0017DDC9 /* GatorFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GatorFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E048661BC0A6CA0017DDC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96E0486B1BC0A6CA0017DDC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 		96E048961BC0A7210017DDC9 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../DetailViewController.swift; sourceTree = "<group>"; };
 		96E048981BC0A7280017DDC9 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContainerViewController.swift; path = ../ContainerViewController.swift; sourceTree = "<group>"; };
 		96E0489A1BC0A7380017DDC9 /* XMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XMLParser.swift; path = ../XMLParser.swift; sourceTree = "<group>"; };
+		96E048D91BC1B5CB0017DDC9 /* kirsty bd it.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kirsty bd it.ttf"; sourceTree = "<group>"; };
+		96E048DA1BC1B5CB0017DDC9 /* kirsty rg it.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kirsty rg it.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 		96E048651BC0A6CA0017DDC9 /* GatorFeed */ = {
 			isa = PBXGroup;
 			children = (
+				96A5A9551BC321B200A84C63 /* Animals-Dog-Track-icon.png */,
+				96E048D91BC1B5CB0017DDC9 /* kirsty bd it.ttf */,
+				96E048DA1BC1B5CB0017DDC9 /* kirsty rg it.ttf */,
 				96E048961BC0A7210017DDC9 /* DetailViewController.swift */,
 				96E048981BC0A7280017DDC9 /* ContainerViewController.swift */,
 				96E0489A1BC0A7380017DDC9 /* XMLParser.swift */,
@@ -246,8 +255,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				96E048711BC0A6CA0017DDC9 /* LaunchScreen.storyboard in Resources */,
+				96E048DB1BC1B5CC0017DDC9 /* kirsty bd it.ttf in Resources */,
 				96E0486E1BC0A6CA0017DDC9 /* Assets.xcassets in Resources */,
 				96E0486C1BC0A6CA0017DDC9 /* Main.storyboard in Resources */,
+				96E048DC1BC1B5CC0017DDC9 /* kirsty rg it.ttf in Resources */,
+				96A5A9561BC321B200A84C63 /* Animals-Dog-Track-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +515,7 @@
 				96E0488D1BC0A6CB0017DDC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96E0488E1BC0A6CB0017DDC9 /* Build configuration list for PBXNativeTarget "GatorFeedTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +524,7 @@
 				96E048901BC0A6CB0017DDC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96E048911BC0A6CB0017DDC9 /* Build configuration list for PBXNativeTarget "GatorFeedUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +533,7 @@
 				96E048931BC0A6CB0017DDC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

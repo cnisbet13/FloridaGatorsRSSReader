@@ -16,10 +16,11 @@ class TableViewController: UITableViewController, XMLParserDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let url = NSURL(string: "http://www.gatorzone.com/rss/football")
+        let url = NSURL(string: "http://www.gatorzone.com/rss")
         xmlParser = XMLParser()
         xmlParser.delegate = self
-        xmlParser.startParsingContentsOfURL(url!)
+        xmlParser.startParsingWithContentsOfURL(url!)
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -64,12 +65,15 @@ class TableViewController: UITableViewController, XMLParserDelegate {
         let dictionary = xmlParser.arrParsedData[indexPath.row] as Dictionary<String, String>
         let tutorialLink = dictionary["link"]
         
-        let tutorialViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("idTutorialViewController") as! DetailViewController
+        let tutorialViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("idDetailViewController") as! DetailViewController
         
         tutorialViewController.tutorialURL = NSURL(string: tutorialLink!)
         
         showDetailViewController(tutorialViewController, sender: self)
+        
     }
+    
+    
     
     
     /*

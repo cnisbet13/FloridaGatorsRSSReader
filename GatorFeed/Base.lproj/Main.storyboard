@@ -8,7 +8,7 @@
         <!--Detail View Controller-->
         <scene sceneID="ciw-e2-k1j">
             <objects>
-                <viewController id="JtM-Rg-GQU" customClass="DetailViewController" customModule="GatorFeed" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="idDetailViewController" id="JtM-Rg-GQU" customClass="DetailViewController" customModule="GatorFeed" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="noW-TK-4Pn"/>
                         <viewControllerLayoutGuide type="bottom" id="haE-p9-C34"/>
@@ -20,7 +20,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Article Was Selected" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RmZ-Uv-kuW">
                                 <rect key="frame" x="208" y="289" width="185" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1ZK-6K-CUw">
@@ -82,7 +82,7 @@
                                             <rect key="frame" x="15" y="0.0" width="570" height="79"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -107,6 +107,11 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="L5n-2U-ukS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.95294117647058818" green="0.4392156862745098" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.95294117649999999" green="0.43921568630000002" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="KeK-iR-IhR" kind="relationship" relationship="rootViewController" id="CYz-Vt-oIF"/>
@@ -119,7 +124,7 @@
         <!--Split View Controller-->
         <scene sceneID="iwF-my-nva">
             <objects>
-                <splitViewController id="CMO-VQ-Bqa" sceneMemberID="viewController">
+                <splitViewController storyboardIdentifier="idSplitViewController" id="CMO-VQ-Bqa" sceneMemberID="viewController">
                     <connections>
                         <segue destination="wlh-ug-xjP" kind="relationship" relationship="masterViewController" id="hwW-kp-djz"/>
                         <segue destination="JtM-Rg-GQU" kind="relationship" relationship="detailViewController" id="Blu-ou-bN8"/>

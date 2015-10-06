@@ -9,13 +9,30 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
 
     var window: UIWindow?
+    
+    var splitViewController : UISplitViewController?
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+      
+        let navigationBarAppearance = UINavigationBar.appearance()
+        navigationBarAppearance.barTintColor = UIColor(red: 243, green: 112, blue: 33, alpha: 1.0)
+        navigationBarAppearance.titleTextAttributes = [NSFontAttributeName: UIFont(name: "Kirsty-BoldItalic", size: 36)!, NSForegroundColorAttributeName:UIColor(red: 243, green: 112, blue: 33, alpha: 1.0)]
+        
+        splitViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("idSplitViewController") as? UISplitViewController
+        splitViewController?.delegate = self
+        
+        splitViewController?.preferredDisplayMode = UISplitViewControllerDisplayMode.AllVisible
+        
+        let containerViewController : ContainerViewController = ContainerViewController()
+        containerViewController.setEmbeddedViewController(splitViewController)
+        window?.rootViewController = containerViewController
+        
+        
         return true
     }
 

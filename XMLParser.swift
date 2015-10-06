@@ -8,7 +8,7 @@
 
 import UIKit
 
-
+//colours #f37021 - orange, #005496 - blue
 
 @objc protocol XMLParserDelegate{
     func parsingWasFinished()
@@ -25,26 +25,34 @@ class XMLParser: NSObject, NSXMLParserDelegate {
     var delegate: XMLParserDelegate?
  
     
-    func startParsingContentsOfURL(rssURL: NSURL) {
+    func startParsingWithContentsOfURL(rssURL: NSURL) {
         let parser = NSXMLParser(contentsOfURL: rssURL)
-        parser?.delegate = self
-        parser?.parse()
+        parser!.delegate = self
+        parser!.parse()
+    }
+    
+    
+    func parser(parser: NSXMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String]) {
+        currentElement = elementName
     }
     
     
     func parser(parser: NSXMLParser, foundCharacters string: String) {
-        if (currentElement == "title" && currentElement != "Gators") || currentElement == "link" || currentElement == "pubDate"{
+        if (currentElement == "title" && currentElement != "Appcoda") || currentElement == "link" || currentElement == "pubDate"{
             foundCharacters += string
         }
     }
     
     
     func parser(parser: NSXMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
-        if foundCharacters.isEmpty {
-            if elementName == "link" {
+        if !foundCharacters.isEmpty {
+            
+            if elementName == "link"{
                 foundCharacters = (foundCharacters as NSString).substringFromIndex(3)
             }
+            
             currentDataDictionary[currentElement] = foundCharacters
+            
             foundCharacters = ""
             
             if currentElement == "pubDate" {
